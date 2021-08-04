@@ -1,0 +1,55 @@
+:root{
+    --laranja: #f47521;
+    --preto: #141414;
+    --branco: #FFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: var(--laranja);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 10px;
+    
+}
+header nav a:hover{
+    color: var(--laranja);
+}
+/*Em destaque*/
+.anime-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(img/capa\ rezero.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.anime-principal .descricao{
+    margin-bottom: 90px;
+}
+.titulo{
+    font-size: 40px;
+}
