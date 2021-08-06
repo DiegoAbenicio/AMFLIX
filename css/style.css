@@ -9,7 +9,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-
+    
 }
 body{
     background-color: var(--preto);
@@ -40,9 +40,9 @@ header nav a:hover{
 /*Em destaque*/
 .anime-principal{
     font-size: 16px;
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(img/capa\ rezero2.jpg);
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/capa\ rezero3.png);
     height: 400px;
-    background-size: 100% 100%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,4 +81,14 @@ header nav a:hover{
 .anime-principal .container{
     width: 70%;
 }
-
+.box-anime{
+    height: 440px;
+    width: 100%;
+    display: block;
+}
+.carrosel-animes{
+    margin-top: 10px;
+}
+.purple{
+    color: rgb(121, 107, 167);
+}

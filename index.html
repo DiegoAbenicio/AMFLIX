@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Respovidade-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--own css-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <title>AMFLIX</title>
 </head>
 <body>
-    <script src="https://kit.fontawesome.com/3bb757566f.js" crossorigin="anonymous"></script>
+    
     <header>
         <div class="container">
             <h2 class="logo">AMFLIX</h2>
             <nav>
-                <a href="#">Inicio</a>
+                <a href="index.html">Inicio</a>
                 <a href="#">Animes</a>
                 <a href="#">Músicas</a>
             </nav>
@@ -22,15 +28,15 @@
     <main>
         <div class="anime-principal">
             <div class="container">
-                <h3 class="titulo">RE:ZERO</h3>
+                <h3 class="titulo"><di class="purple">RE</di>:ZERO</h3>
                 <p class="descricao">
                    Natsuki Subaru, um adolescente comum, que acaba reencarnando em mundo de fantasia 
                    e la ele obtem o poder do retorno a pós a morte.
                 </p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button role="button" class="botao" onclick="chamar()">
                         <i class="fas fa-play-circle"></i>
-                        VER AS MÚSICAS
+                        ESCUTAR
                     </button>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
@@ -39,7 +45,26 @@
                 </div>
             </div>
         </div>
-            
+
     </main>
+    <div class="carrosel-animes">
+        <div class="owl-carousel owl-theme">
+                <div class="box-anime"><img src="img/Jujuposter.jpg" alt="" srcset=""></div>
+                <div class="box-anime"><img src="img/kaguyaposter.jpg" alt="" srcset=""></div>
+                <div class="box-anime"><img src="img/kakushigotoposter.jpg" alt="" srcset=""></div>
+                <div class="box-anime"><img src="img/Kimposter.jpg" alt="" srcset=""></div>
+                <div class="box-anime"><img src="img/Kobayashiposter.jpg" alt="" srcset=""></div>
+                <div class="box-anime"><img src="img/konosubaposter.jpg" alt="" srcset=""></div>
+                <div class="box-anime"><img src="img/mobposter.jpg" alt="" srcset=""></div>
+                <div class="box-anime"><img src="img/mushokuposter.jpg" alt="" srcset=""></div>
+                <div class="box-anime"><img src="img/overlordposter.jpg" alt="" srcset=""></div>
+                <div class="box-anime"><img src="img/tokyoposter.jpg" alt="" srcset=""></div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/3bb757566f.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
 </body>
 </html>
