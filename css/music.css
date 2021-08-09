@@ -1,0 +1,55 @@
+:root{
+    --laranja: #f47521;
+    --preto: #141414;
+    --branco: #FFFF;
+    --cinza: #2e2e2e;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+main{
+ 
+    width: 80%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagem{
+    width: 20%;
+    margin-right: 10%;
+}
+main .sub-cabecalho{
+    display: flex;
+    background-color: var(--cinza);
+    padding: 1.5%;
+    margin-bottom: 3%;
+}
+main .conteudo{   
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+}
+.purple{
+    color: rgb(121, 107, 167);
+}
+.titulo{
+    margin-bottom: 8%;
+    font-size: 25px;
+}
+.texto{
+    font-size: 16px;
+    text-align: justify;
+}
+.musicas{
+    background-color: var(--cinza);
+}
+

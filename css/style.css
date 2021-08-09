@@ -16,27 +16,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
-header .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    color: var(--laranja);
-    font-family: 'Arial Black', Times;
-    font-size: 40px;
-    padding-left: 1%;
-}
-header nav a{
-    text-decoration: none;
-    color: var(--branco);
-    margin-right: 10px;
-    transition: .3s ease all;
-    
-}
-header nav a:hover{
-    color: var(--laranja);
-}
+
 /*Em destaque*/
 .anime-principal{
     font-size: 16px;

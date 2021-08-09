@@ -1,0 +1,26 @@
+:root{
+    --laranja: #f47521;
+    --preto: #141414;
+    --branco: #FFFF;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: var(--laranja);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    padding-left: 1%;
+}
+header nav a{
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 10px;
+    transition: .3s ease all;
+    
+}
+header nav a:hover{
+    color: var(--laranja);
+}
