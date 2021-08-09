@@ -3,13 +3,13 @@
     --preto: #141414;
     --branco: #FFFF;
     --cinza: #2e2e2e;
+    --corbotao: #3f3f3f;
 }
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 body{
     background-color: var(--preto);
@@ -32,6 +32,7 @@ main .sub-cabecalho{
     background-color: var(--cinza);
     padding: 1.5%;
     margin-bottom: 3%;
+    margin-top: 4%;
 }
 main .conteudo{   
     align-items: flex-start;
@@ -51,5 +52,19 @@ main .conteudo{
 }
 .musicas{
     background-color: var(--cinza);
+}
+.botao{
+    margin-bottom: 5px;
+    background: var(--corbotao);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.botao img{
+    margin-left: 20px;
+    height: 25px;
+    align-items: center;
 }
 

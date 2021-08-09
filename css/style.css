@@ -50,7 +50,6 @@ body{
 .botao:hover {
     background-color: var(--branco);
     color: var(--laranja);
-
 }
 .botao i{
     margin-right: 7px;
