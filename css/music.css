@@ -59,12 +59,16 @@ main .conteudo{
     height: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: left;
+    padding: 1.4%;
+    font-size: 16px;
 }
-.botao img{
-    margin-left: 20px;
+.play{
     height: 25px;
     align-items: center;
+    margin-right: 30px;
 }
-
+.icon{
+    height: 30px;
+    margin-right: 3.5%;
+}
