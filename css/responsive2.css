@@ -1,0 +1,17 @@
+@media screen and (max-width: 542px){
+    main .sub-cabecalho{
+        display: block;
+    }
+    .imagem{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .titulo{
+        font-size: 18px;
+        margin-left: 5%;
+    }
+    .texto{
+        font-size: 10px;
+    }
+}
